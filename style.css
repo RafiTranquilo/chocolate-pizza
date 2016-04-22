@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;
+  align-items: center;*/
+  margin:0 auto;
+  width: 66%;
+}
+
+header{
+  flex-direction: row;
+  display: inline;
+}
+
+.bigPizza{
+  max-width: 751.078px;
+}
+
+.delicious{
+  font-family: 'Yellowtail', cursive;
+  font-size: 24px;
+}
+
+.bestFood{
+  font-family: 'Source Code Pro';
+  font-size:12px;
+}
+
+.paperList{
+  max-width: 751.078px;
+  display:flex;
+}
+
+.tableRight{
+  
+}
+
+.copyright:after{
+  content:"\00a9";
+}
