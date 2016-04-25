@@ -7,32 +7,121 @@
   width: 66%;
 }
 
-header{
-  flex-direction: row;
-  display: inline;
+.banner{
+  /*flex-direction: row;*/
+  display: inline-flex;
+  /*flex: 1, 100%;*/
 }
 
+.socialLinks{
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: flex-end;*/
+  margin-left: auto;
+}
+
+
 .bigPizza{
-  max-width: 751.078px;
+  max-width: 704.22px;
+  display:flex;
+  flex-direction: column;
 }
 
 .delicious{
   font-family: 'Yellowtail', cursive;
   font-size: 24px;
+  margin:0;
+  margin-right: 5px;
 }
 
 .bestFood{
   font-family: 'Source Code Pro';
   font-size:12px;
+  display:block;
 }
 
-.paperList{
-  max-width: 751.078px;
+.print {
+  display: inline;
+  /*flex-direction: row;
+  justify-content: flex-end;*/
+  margin-left: auto;
+  font-family: 'Source Code Pro';
+  font-size: 12px;
+}
+
+.bigName{
+  font-family: 'Oswald', sans-serif;
+  display:inline;
+}
+
+.bodyText p{
+  text-indent: 3mm;
+}
+
+.recipe{
+  background-image:url(img/list-bg.png);
+  display: inline-flex;
+  border-radius: 10px;
+  border-bottom: 2px solid grey;
+  margin-bottom: 20px;
+}
+
+.listLeft {
+  /*display: inline-flex;*/
+  flex-direction: column;
+  list-style-type: none;
+
+}
+
+.listRight {
+  /*display: inline;*/
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.footie{
   display:flex;
+  flex-direction: row;
+}
+.share{
+  height:36px;
+  margin: 10px;
+  padding: 4px 8px 16px 8px;
+  border:4px;
+  background-color: #ba7d5e;
+  color:white;
 }
 
-.tableRight{
-  
+h5{
+  margin-left: 10px;
+  display:inline;
+}
+
+.grayBar{
+  height: 10px;
+  width:auto;
+  background-color: #bfbfbf;
+  margin-bottom: 15px;
+}
+
+.grayBarOne{
+  height: 10px;
+  width:auto;
+  background-color: #bfbfbf;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.randomEnd{
+  margin:0 auto;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  max-width: 704.22px;
+}
+
+.smallLogo{
+/*margin-left: 107.125px;*/
 }
 
 .copyright:after{
